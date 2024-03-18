@@ -1,0 +1,89 @@
+HTML (index.html):
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Página Web</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#acerca">Acerca de</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>¡Bienvenido a mi página web!</p>
+  </section>
+  
+  <section id="acerca">
+    <h2>Acerca de</h2>
+    <p>Esta es una breve descripción sobre mí.</p>
+  </section>
+  
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes contactarme en example@email.com</p>
+  </section>
+  
+  <footer>
+    <p>Derechos de autor © 2024. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+CSS (styles.css):
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
